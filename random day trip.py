@@ -9,10 +9,10 @@ import random
 def full_trip():
     generate_trip()
     print_trip()
+    satisfied()
 
 
-
-def generate_trip ():
+def generate_trip ():# can I make this smaller? maybe make a list of the lists?
     destination = ['New York', 'Alaska', 'Colorado', 'Arizona', 'Florida']
     resaurant = ['Chinese Food', 'Mexican Food', 'Hawaiian Food', 'Thai Food', 'Sushi']
     transportation = ['Car', 'Motorcycle','Train', 'Bicycle', 'Bus']
@@ -31,6 +31,18 @@ def print_trip():
     print(f'Restaurant: {restaurant_choice}')  
     print(f'Transportation: {transportation_choice}')
     print(f'Entertainment: {entertainment_choice}')
+
+def satisfied():
+    are_you_satified = input('Are you satified with your trip? Y or N ')
+    if are_you_satified == 'Y':
+        print('Here is your final trip:')
+        print_trip()
+    else:
+
+        
+
+
+#def reselect_options():
 
 
 full_trip()
