@@ -1,4 +1,3 @@
-
 import random
 
 # destination = ['New York', 'Alaska', 'Colorado', 'Arizona', 'Florida']
