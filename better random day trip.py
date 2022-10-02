@@ -23,7 +23,15 @@ def print_random_trip():
     for item in trip:
         print(item)
 
-def
+def are_you_satisfied():
+    function_bool = True
+    while function_bool:
+        user_input = input('Are you happy with your trip? y or n')
+        if user_input == 'n':
+            print_random_trip()
+        else:
+        
+
 
 print_random_trip()
     
